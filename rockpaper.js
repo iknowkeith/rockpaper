@@ -7,6 +7,7 @@ if (computerChoice < 0.34) {
 } else {
 	computerChoice = "scissors";
 }
+console.log(computerChoice);
 
 var compare = function(choice1, choice2){
     if (choice1 === choice2){
