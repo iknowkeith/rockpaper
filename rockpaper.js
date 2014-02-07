@@ -10,6 +10,14 @@ if (computerChoice < 0.34) {
 }
 var compare = function(choice1, choice2){
     if (choice1 === choice2){
-        return("The result is a tie!");
+        return "The result is a tie!";
+    }
+    else if (choice1 === "rock"){
+        if (choice2 === "scissors"){
+            return "Rock Wins!";
+        }
+        else{
+            return "Paper Wins!";
+        }
     }
 }
